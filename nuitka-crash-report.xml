@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf8'?>
+<nuitka-compilation-report nuitka_version="2.8.6" nuitka_commercial_version="not installed" mode="accelerated" completion="error exit message (1)" exit_message="Failed unexpectedly in Scons C backend compilation.">
+  <module name="__main__" kind="PythonMainModule" usage="root_module" reason="Root module" source_path="${cwd}\ddoscopy.py">
+    <optimization-time pass="1" time="0.19" micro_passes="7" max_branch_merge="112" merged_total="1004" />
+    <optimization-time pass="2" time="0.02" micro_passes="1" max_branch_merge="95" merged_total="136" />
+    <distribution-usages>
+      <distribution-usage name="keyboard" />
+    </distribution-usages>
+    <module_usages>
+      <module_usage name="site" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="1" />
+      <module_usage name="random" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="datetime" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="keyboard" finding="absolute" line="4" />
+      <module_usage name="sys" finding="absolute" line="5" />
+      <module_usage name="os" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="keyboard" kind="CompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\keyboard\__init__.py" distribution="keyboard">
+    <optimization-time pass="1" time="0.87" micro_passes="7" max_branch_merge="82" merged_total="13234" />
+    <optimization-time pass="2" time="0.11" micro_passes="1" max_branch_merge="82" merged_total="1788" />
+    <module_usages>
+      <module_usage name="__future__" finding="excluded" line="80" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="re" finding="excluded" line="84" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="itertools" finding="absolute" line="85" />
+      <module_usage name="collections" finding="excluded" line="86" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="threading" finding="excluded" line="87" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="88" />
+      <module_usage name="Queue" finding="not-found" line="97" />
+      <module_usage name="threading" finding="excluded" line="99" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="queue" finding="excluded" line="104" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="threading" finding="excluded" line="105" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="platform" finding="excluded" line="120" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="keyboard" finding="absolute" line="122" />
+      <module_usage name="keyboard._winkeyboard" finding="relative" line="122" />
+      <module_usage name="keyboard" finding="absolute" line="124" />
+      <module_usage name="keyboard._nixkeyboard" finding="relative" line="124" />
+      <module_usage name="keyboard" finding="absolute" line="126" />
+      <module_usage name="keyboard._darwinkeyboard" finding="relative" line="126" />
+      <module_usage name="keyboard._keyboard_event" finding="relative" line="130" />
+      <module_usage name="keyboard._generic" finding="relative" line="131" />
+      <module_usage name="keyboard._canonical_names" finding="relative" line="132" />
+    </module_usages>
+  </module>
+  <module name="keyboard._canonical_names" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\keyboard\_canonical_names.py" distribution="keyboard">
+    <optimization-time pass="1" time="0.03" micro_passes="5" max_branch_merge="29" merged_total="305" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="23" merged_total="59" />
+    <module_usages>
+      <module_usage name="__future__" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="platform" finding="excluded" line="9" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="keyboard._darwinkeyboard" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\keyboard\_darwinkeyboard.py" distribution="keyboard">
+    <optimization-time pass="1" time="0.30" micro_passes="7" max_branch_merge="133" merged_total="5940" />
+    <optimization-time pass="2" time="0.05" micro_passes="1" max_branch_merge="129" merged_total="822" />
+    <module_usages>
+      <module_usage name="ctypes" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="ctypes.util" finding="absolute" line="2" />
+      <module_usage name="Quartz" finding="not-found" line="3" />
+      <module_usage name="time" finding="absolute" line="4" />
+      <module_usage name="os" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="threading" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="AppKit" finding="not-found" line="7" />
+      <module_usage name="keyboard._keyboard_event" finding="relative" line="8" />
+      <module_usage name="keyboard._canonical_names" finding="relative" line="9" />
+    </module_usages>
+  </module>
+  <module name="keyboard._generic" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\keyboard\_generic.py" distribution="keyboard">
+    <optimization-time pass="1" time="0.07" micro_passes="6" max_branch_merge="23" merged_total="808" />
+    <optimization-time pass="2" time="0.01" micro_passes="1" max_branch_merge="23" merged_total="122" />
+    <module_usages>
+      <module_usage name="threading" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="traceback" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="functools" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="queue" finding="excluded" line="7" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="Queue" finding="not-found" line="9" />
+    </module_usages>
+  </module>
+  <module name="keyboard._keyboard_event" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\keyboard\_keyboard_event.py" distribution="keyboard">
+    <optimization-time pass="1" time="0.08" micro_passes="6" max_branch_merge="21" merged_total="650" />
+    <optimization-time pass="2" time="0.02" micro_passes="1" max_branch_merge="16" merged_total="92" />
+    <module_usages>
+      <module_usage name="time" finding="absolute" line="3" />
+      <module_usage name="json" finding="excluded" line="4" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="keyboard._canonical_names" finding="relative" line="5" />
+    </module_usages>
+  </module>
+  <module name="keyboard._nixcommon" kind="CompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\keyboard\_nixcommon.py" distribution="keyboard">
+    <optimization-time pass="1" time="0.14" micro_passes="6" max_branch_merge="33" merged_total="2228" />
+    <optimization-time pass="2" time="0.08" micro_passes="1" max_branch_merge="24" merged_total="348" />
+    <module_usages>
+      <module_usage name="struct" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="os" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="atexit" finding="absolute" line="4" />
+      <module_usage name="time" finding="absolute" line="5" />
+      <module_usage name="threading" finding="excluded" line="6" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="glob" finding="excluded" line="7" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="queue" finding="excluded" line="9" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="Queue" finding="not-found" line="11" />
+      <module_usage name="fcntl" finding="not-found" line="27" />
+      <module_usage name="struct" finding="excluded" line="27" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="re" finding="excluded" line="118" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections" finding="excluded" line="119" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.namedtuple" finding="not-found" line="119" />
+      <module_usage name="warnings" finding="excluded" line="150" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="keyboard._nixkeyboard" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\keyboard\_nixkeyboard.py" distribution="keyboard">
+    <optimization-time pass="1" time="0.30" micro_passes="7" max_branch_merge="40" merged_total="2786" />
+    <optimization-time pass="2" time="0.04" micro_passes="1" max_branch_merge="40" merged_total="382" />
+    <module_usages>
+      <module_usage name="struct" finding="excluded" line="2" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="traceback" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="time" finding="absolute" line="4" />
+      <module_usage name="collections" finding="excluded" line="5" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.namedtuple" finding="not-found" line="5" />
+      <module_usage name="keyboard._keyboard_event" finding="relative" line="6" />
+      <module_usage name="keyboard._canonical_names" finding="relative" line="7" />
+      <module_usage name="keyboard._nixcommon" finding="relative" line="8" />
+      <module_usage name="subprocess" finding="excluded" line="48" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections" finding="excluded" line="49" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.defaultdict" finding="not-found" line="49" />
+      <module_usage name="re" finding="excluded" line="50" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <module name="keyboard._winkeyboard" kind="CompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\Lib\site-packages\keyboard\_winkeyboard.py" distribution="keyboard">
+    <optimization-time pass="1" time="0.65" micro_passes="9" max_branch_merge="91" merged_total="7904" />
+    <optimization-time pass="2" time="0.07" micro_passes="1" max_branch_merge="89" merged_total="867" />
+    <module_usages>
+      <module_usage name="__future__" finding="excluded" line="13" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="re" finding="excluded" line="14" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="atexit" finding="absolute" line="15" />
+      <module_usage name="traceback" finding="excluded" line="16" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="threading" finding="excluded" line="17" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections" finding="excluded" line="18" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="collections.defaultdict" finding="not-found" line="18" />
+      <module_usage name="keyboard._keyboard_event" finding="relative" line="20" />
+      <module_usage name="keyboard._canonical_names" finding="relative" line="21" />
+      <module_usage name="ctypes" finding="excluded" line="31" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="ctypes" finding="excluded" line="32" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="ctypes.wintypes" finding="absolute" line="33" />
+    </module_usages>
+  </module>
+  <performance>
+    <memory_usage name="after_launch" value="38035456" />
+    <memory_usage name="before_c_code_generation" value="47865856" />
+    <memory_usage name="before_running_scons" value="53796864" />
+  </performance>
+  <data_composer blob_size="65172" total="1654">
+    <module_data filename="__bytecode.const" blob_name=".bytecode" blob_size="3" input_size="0" />
+    <module_data filename="__constants.const" blob_name="" blob_size="978" input_size="2358" />
+    <module_data filename="module.__main__.const" blob_name="__main__" blob_size="1184" input_size="2227" />
+    <module_data filename="module.keyboard._canonical_names.const" blob_name="keyboard._canonical_names" blob_size="18728" input_size="21628" />
+    <module_data filename="module.keyboard._darwinkeyboard.const" blob_name="keyboard._darwinkeyboard" blob_size="5504" input_size="8059" />
+    <module_data filename="module.keyboard._generic.const" blob_name="keyboard._generic" blob_size="1377" input_size="2270" />
+    <module_data filename="module.keyboard._keyboard_event.const" blob_name="keyboard._keyboard_event" blob_size="1068" input_size="1803" />
+    <module_data filename="module.keyboard._nixcommon.const" blob_name="keyboard._nixcommon" blob_size="2792" input_size="4613" />
+    <module_data filename="module.keyboard._nixkeyboard.const" blob_name="keyboard._nixkeyboard" blob_size="2035" input_size="3363" />
+    <module_data filename="module.keyboard._winkeyboard.const" blob_name="keyboard._winkeyboard" blob_size="7242" input_size="10325" />
+    <module_data filename="module.keyboard.const" blob_name="keyboard" blob_size="24022" input_size="28314" />
+  </data_composer>
+  <command_line>
+    <option value="--follow-imports" />
+    <option value="C:/Users/Office/Desktop/ddos/ddos/ddoscopy.py" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="multiprocessing" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions>
+    <distribution name="keyboard" version="0.13.5" installer="pip" />
+  </distributions>
+  <python python_exe="${sys.prefix}\Scripts\python.exe" python_flavor="CPython Official" python_version="3.13.7" os_name="Windows" os_release="11" arch_name="x86_64" filesystem_encoding="utf-8" gil="yes">
+    <search_path>
+      <path value="${cwd}" />
+      <path value="${sys.real_prefix}\DLLs" />
+      <path value="${sys.real_prefix}\Lib" />
+      <path value="${sys.real_prefix}" />
+      <path value="${sys.prefix}" />
+      <path value="${sys.prefix}\Lib\site-packages" />
+    </search_path>
+  </python>
+  <output run_filename="${cwd}\ddoscopy.cmd" />
+</nuitka-compilation-report>
